@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/receiver_pre_relo.dir/receiver_pre_relo.c.o -o bin/receiver_pre_relo  libs/libutil.a 

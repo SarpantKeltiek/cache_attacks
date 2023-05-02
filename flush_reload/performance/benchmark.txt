@@ -1,0 +1,192 @@
+sarpant@tardis-t80:~/research_projects/flush_reload/performance$ ./perf 10000 100
+
+
+----- Benchmark with time to wait: 1 ----- 
+current time: 1
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 9051
+Total des accès correctement prédits: 8954
+Faux positif: 97
+Faux negatif: 1046
+
+
+
+----- Benchmark with time to wait: 2 ----- 
+current time: 2
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 8123
+Total des accès correctement prédits: 7989
+Faux positif: 134
+Faux negatif: 2010
+
+
+
+----- Benchmark with time to wait: 4 ----- 
+current time: 4
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 7397
+Total des accès correctement prédits: 7200
+Faux positif: 197
+Faux negatif: 2800
+
+
+
+----- Benchmark with time to wait: 8 ----- 
+current time: 8
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 8649
+Total des accès correctement prédits: 8505
+Faux positif: 144
+Faux negatif: 1495
+
+
+
+----- Benchmark with time to wait: 16 ----- 
+current time: 16
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 7786
+Total des accès correctement prédits: 7677
+Faux positif: 109
+Faux negatif: 2323
+
+
+
+----- Benchmark with time to wait: 32 ----- 
+current time: 32
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 7414
+Total des accès correctement prédits: 7319
+Faux positif: 95
+Faux negatif: 2680
+
+
+
+----- Benchmark with time to wait: 64 ----- 
+current time: 64
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 9126
+Total des accès correctement prédits: 9092
+Faux positif: 34
+Faux negatif: 908
+
+
+
+----- Benchmark with time to wait: 128 ----- 
+current time: 128
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 9110
+Total des accès correctement prédits: 9058
+Faux positif: 52
+Faux negatif: 942
+
+
+
+----- Benchmark with time to wait: 256 ----- 
+current time: 256
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 8416
+Total des accès correctement prédits: 8401
+Faux positif: 15
+Faux negatif: 1598
+
+
+
+----- Benchmark with time to wait: 512 ----- 
+current time: 512
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 9724
+Total des accès correctement prédits: 9683
+Faux positif: 41
+Faux negatif: 317
+
+
+
+----- Benchmark with time to wait: 1024 ----- 
+current time: 1024
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 9854
+Total des accès correctement prédits: 9810
+Faux positif: 43
+Faux negatif: 190
+
+
+
+----- Benchmark with time to wait: 2048 ----- 
+current time: 2048
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 9875
+Total des accès correctement prédits: 9794
+Faux positif: 80
+Faux negatif: 206
+
+
+
+----- Benchmark with time to wait: 4096 ----- 
+current time: 4096
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 9900
+Total des accès correctement prédits: 9829
+Faux positif: 71
+Faux negatif: 171
+
+
+
+----- Benchmark with time to wait: 8192 ----- 
+current time: 8192
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 9784
+Total des accès correctement prédits: 9697
+Faux positif: 86
+Faux negatif: 302
+
+
+
+----- Benchmark with time to wait: 16384 ----- 
+current time: 16384
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 9726
+Total des accès correctement prédits: 9640
+Faux positif: 84
+Faux negatif: 360
+
+
+
+----- Benchmark with time to wait: 32768 ----- 
+current time: 32768
+rd: 1
+---> Résumé: 
+Total du nombre d'access: 10000
+Total des accès prédits: 9622
+Total des accès correctement prédits: 9510
+Faux positif: 106
+Faux negatif: 490
